@@ -1,0 +1,14 @@
+{
+    "presets": ["@babel/preset-typescript"],
+    "plugins": [
+        [
+            "remove-import-export",
+            {
+                "removeImport": true,
+                "removeExport": true,
+                "removeExportDefault": true,
+                "preseveNamedDeclaration": true
+            }
+        ]
+    ]
+}
